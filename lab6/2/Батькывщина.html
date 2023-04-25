@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.menu{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  height: 400px;
+  background: #222;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.menu__wrap{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 70px;
+  overflow: hidden;
+  color: #fff;
+  transition: height .5s;
+  text-align: center;
+}
+
+.menu:hover .menu__wrap{
+  height: 50%;
+}
+</style>
+<body>
+  <div class="menu"><img src="2.1.jpg" ></div>
+    <div class="menu">
+        <div class="menu__wrap">
+          <h1 class="menu__heading">Рожеве озеро Сиваш </h1>
+          <p class="menu__description">Херсонщина</p>
+        </div>
+      </div>
+      <p></p>
+ <div class="menu"><img src="2.2.jpg" ></div>
+    <div class="menu">
+          <div class="menu__wrap">
+            <h1 class="menu__heading">Фортеця і національний парк   </h1>
+            <p class="menu__description">«Тустань» (Львівщина)</p>
+          </div>
+        </div>
+<p></p>
+  <div class="menu"><img src="2.3.jpg" ></div>
+    <div class="menu">
+        <div class="menu__wrap">
+          <h1 class="menu__heading">Буковинські водоспади  </h1>
+          <p class="menu__description">(Буковина)</p>
+        </div>
+      </div>          
+</body>
+</html>
