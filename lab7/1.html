@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+   <h1>Buy wood</h1> 
+   <p>ФІО покупця<INPUT NAME = "FIO" VALUE=" Іванов Іван Іванович " ALIGN="CENTER" SIZE="23" MAXLENGTH="30"></p>
+    <p>Кількість досок</p>
+    <p>
+        <select name="week" size="7">
+            <option value="1"> 10kg 5$ </option>
+            <option value="2"> 20kg 10$</option>
+            <option value="3"> 30kg 14$ </option>
+            <option value="4"> 40kg 18$ </option>
+            <option value="5"> 60kg 27$ </option>
+            <option value="6"> 80kg 36$ </option>
+            <option value="7"> 100kg 45$ </option>
+            </select>        
+    </p>
+<p>
+    <textarea name="address" WRAP="virtual" COLS="30" ROWS="3">    
+        Ваші данні   
+ </textarea><br>    
+</p>
+<p>
+    <form>
+        Укажіть Ваші навички: <BR>
+        <input type="radio" name="skill" value="1" checked>Карта<BR>
+        <input type="radio" name="skill" value="2">Готівка<BR>
+     </form>
+</p>
+<p>
+    <FORM>     
+        Укажіть Ваші навички: <BR>
+         <input type="checkbox" name="skill" value="1" checked> Упаковувати в пленку <BR>
+         <input type="checkbox" name="skill" value="2"> Перевязати мотузкою<BR>
+     </FORM>
+</p>
+<input type = "button" value = "Зробити замовлення" onclick="alert(Date());">
+</body>
+</html>
