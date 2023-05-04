@@ -1,0 +1,19 @@
+body {
+    background-image: url('https://phonoteka.org/uploads/posts/2021-04/1618489208_20-phonoteka_org-p-dlinnii-fon-dlya-saita-21.jpg');
+    font-family: Arial, sans-serif;
+    color: hsl(0, 0%, 9%);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.5;
+    text-align: justify;
+}
+.c1{
+    text-indent : 5%;
+}
+.c2{
+    text-indent : 7%;
+}
+.c3{
+    text-indent : 9%;
+}
