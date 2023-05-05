@@ -1,0 +1,49 @@
+body {
+    background-image: url('https://phonoteka.org/uploads/posts/2021-04/1618489208_20-phonoteka_org-p-dlinnii-fon-dlya-saita-21.jpg');
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    font-size: 15pt;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.5;
+    text-align: justify;
+    color: hsl(0, 0%, 9%);
+}
+p{
+    text-indent : 5%;
+
+}
+h1{
+    font-weight: 700;
+    text-align: center;
+    color: aquamarine;
+}
+img{
+    float: right;
+    border: 6px;
+    border-color: black;
+    width:80%; 
+    height:80%;
+    padding-right: 160px;
+}
+a:link{
+    padding: 70px;
+    color: green; 
+    text-decoration:none;
+}
+a:active {
+    color: #0000FF; 
+    text-decoration:none; 
+}
+A:visited {
+    color: rgb(196, 178, 15); 
+    text-decoration:none;
+}    
+A:hover { 
+    color: Red;
+    text-decoration:underline;
+    }
+    
+
+    
