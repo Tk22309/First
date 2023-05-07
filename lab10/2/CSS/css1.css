@@ -1,0 +1,52 @@
+body { 
+  display: grid;
+  grid-template-areas: 
+  "header header ads"
+  "article nav ads"                 
+  "footer footer footer";
+  grid-template-rows: 200px 1fr 150px;
+  grid-template-columns: 1fr 20% 15%;
+  height: 100vh;
+  margin: 0;
+  grid-gap: 0px;
+  }
+
+#pageHeader {
+grid-area: header;
+background-color: blue;
+}
+#pageFooter {
+grid-area: footer;
+background-color: brown;
+}
+#mainArticle { 
+grid-area: article;
+display: grid;
+grid-template-areas: 
+"header article "
+"footer footer";                 
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+}
+#mainNav { 
+grid-area: nav; 
+background-color: yellow;
+}
+#siteAds { 
+grid-area: ads; 
+background-color: grey;
+}
+
+
+#pageHeader1 {
+grid-area: header;
+background: rgb(104, 208, 226);
+}
+#mainArticle1 { 
+grid-area: article;    
+background: red; 
+}
+#mainFooter1 { 
+grid-area: footer; 
+background: green;
+}
