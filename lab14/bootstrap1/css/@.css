@@ -1,0 +1,10 @@
+@media (min-width: 576px){
+   
+}
+@media (max-width: 576px){
+   body{
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    } 
+}

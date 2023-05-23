@@ -1,0 +1,50 @@
+
+.wapper{
+    display: grid;
+    grid-template-areas: 
+      "Header-l Header-l Header-r"
+      "Nav Article ads"
+      "Footer-l Footer-r Footer-r";
+    height: 80%;
+    padding: 15px;
+}
+
+.Header-l{
+    grid-area: Header-l;
+    background-color: rgb(255, 159, 90);
+    border : 1px solid rgb(109, 109, 109);
+}
+.Header-r{
+    grid-area: Header-r;
+    border : 1px solid rgb(109, 109, 109);
+}
+.Nav{
+ grid-area: Nav;
+ border : 1px solid rgb(109, 109, 109);
+}
+.Article{
+grid-area: Article;
+border : 1px solid rgb(109, 109, 109);
+}
+.Ads{
+grid-area: ads;
+border : 1px solid rgb(109, 109, 109);
+}
+.Footer-l{
+ grid-area: Footer-l;
+ border : 1px solid rgb(109, 109, 109);
+}
+.Footer-r{
+grid-area: Footer-r;
+background-color: rgb(255, 159, 90);
+border : 1px solid rgb(109, 109, 109);
+}
+
+.text-red{
+    color: var(--bs-danger);
+    font-size: 20px;
+}
+.text-blue{
+    color: var(--bs-blue);
+    font-size: 20px;
+}
