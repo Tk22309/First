@@ -1,0 +1,32 @@
+.btn-blue{
+    background-color: rgb(0, 174, 255);
+    border: 0px;
+    border-radius: 5%;
+    width: 20%;
+    height: 35px;
+    margin-bottom: auto;
+    cursor: pointer;
+}
+h1{
+    color: red;
+    padding: 18px;
+    widows: 100%;
+    text-align: center;
+    padding: 80px;
+}
+.btn1{
+    width: 100%;
+    padding-left: 40%;
+}
+
+.div-start{
+    margin: 50px auto;
+    width: 500px;
+    height: 400px;
+    border: 3px solid #000;
+    border-radius: 20px;
+    color: #fff;
+    font-family: Arial;
+    padding: 18px;
+    align-items: center;
+}
