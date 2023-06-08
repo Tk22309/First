@@ -1,0 +1,16 @@
+table {
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+/*
+button{
+    margin-top: 15px;
+    margin-left: 350px;
+}
+p{
+    margin-top: -20px;
+}*/
